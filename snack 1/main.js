@@ -1,5 +1,5 @@
-const first_input = parseInt(prompt("Inserisci un primo numero"));
-const second_input = parseInt(prompt("Inserisci un secondo numero"));
+const first_input = Number(prompt("Inserisci un primo numero"));
+const second_input = Number(prompt("Inserisci un secondo numero"));
 
 console.log('n : ' + first_input , 'm : ' + second_input);
 
